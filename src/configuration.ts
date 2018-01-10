@@ -15,6 +15,7 @@ interface TerraformConfiguration {
   lintPath: string;
   lintConfig?: string;
   indexing: TerraformIndexConfiguration;
+  installRoot?: string;
 }
 
 export function getConfiguration(): TerraformConfiguration {

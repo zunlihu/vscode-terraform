@@ -104,6 +104,14 @@
           "default": null,
           "description": "Path to the `tflint` config file."
         },
+        "terraform.installRoot": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "The root path where tools are installed."
+        },
         "terraform.indexing": {
           "type": "object",
           "properties": {
