@@ -1,0 +1,44 @@
+{
+    "name": "vscode-terraform-ui",
+    "version": "1.0.0",
+    "author": {
+        "name": "Mikael Olenfalk",
+        "email": "mikael@olenfalk.se"
+    },
+    "engines": {
+        "node": ">= 6.11.0"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "description": "",
+    "homepage": "https://github.com/mauve/vscode-terraform/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/mauve/vscode-terraform/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mauve/vscode-terraform.git"
+    },
+    "private": true,
+    "scripts": {
+        "build": "webpack --env.production",
+        "build-dev": "webpack",
+        "watch": "webpack --watch"
+    },
+    "devDependencies": {
+        "@types/node": "10.1.1",
+        "@types/webpack": "4.4.0",
+        "css-loader": "0.28.11",
+        "html-webpack-inline-source-plugin": "0.0.10",
+        "html-webpack-plugin": "3.2.0",
+        "imagemin-webpack-plugin": "2.1.5",
+        "mini-css-extract-plugin": "0.4.0",
+        "node-sass": "4.9.0",
+        "sass-loader": "7.0.1",
+        "style-loader": "0.21.0",
+        "tslint": "5.10.0",
+        "ts-loader": "4.3.0",
+        "typescript": "2.8.3",
+        "uglifyjs-webpack-plugin": "1.2.5",
+        "webpack": "4.8.3"
+    }
+}
