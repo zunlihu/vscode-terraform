@@ -12,6 +12,7 @@ var fs = require('fs');
 
 // load tasks
 require("./tasks/auto-completion-data.task.js");
+require("./tasks/provider-documentation.task.js");
 
 //
 // generate hcl wrapper
